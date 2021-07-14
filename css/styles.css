@@ -68,6 +68,24 @@ header{
     background-color:rgba(255,255,255,0.9);
 }
 
+
+/*Mobile-Navigation*/
+.hamburger-menu{
+    cursor:pointer;
+    position:absolute;
+    top:15px;
+    right:15px;
+    display: none;
+}
+
+.hamburger{
+    width:30px;
+    height:3px;
+    background-color:#111;
+    border-radius:10%;
+    margin:5px;
+}
+
 /*header-section*/
 .header-section{
     background-image: url(../img/cover.jpg);

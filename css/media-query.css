@@ -1,5 +1,12 @@
 /* Media Query */
 
+@media all and (max-width:1420px){
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 /* Only applicable to max-width:1200px */
 
 @media all and (max-width:1200px){
@@ -8,27 +15,86 @@
 
 /* Only applicable to max-width:992px */
 
-@media all and (max-width:992px){
-   
+@media all and (max-width:991px){
+   /* everything acceptable */
 }
 
 /* Only applicable to max-width:768px */
 
 @media all and (max-width:768px){
     /* can be done as above section */
+    .heading-div{
+        flex-direction: column;
+    }
     
+    .nav-menu{
+        margin-bottom: 30px;
+    }
+
+    .nav-menu a{
+        font-size: 18px;
+        padding:5px;
+        margin:0 10px;
+    }
+
+    .my-images{
+        flex-direction: column;
+    }
+
+    .image{
+        margin:0 auto;
+        width:100%;
+        margin-bottom:50px;
+    }
+
+    .portfolio-items img{
+        width:47%;
+    }
+
+    .blog-text img{
+        float:none;
+        padding:0;
+        width:100%;
+        margin-bottom:25px;
+    }
+
+    form input,form textarea{
+        width:95%;
+    }
 }
 
 /* Only applicable to max-width:480px */
 
 @media all and (max-width:480px){
     /* can be done as above section */
-    
+    .container{
+        padding-left: 15px;
+        padding-right:15px;
+    }
+
+    .nav-menu{
+        display:flex;
+        width:100vw;
+        height: 100vh;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        margin-top:-120px;
+    }
+
+    .nav-menu a{
+        font-size: 24px;
+        margin:20px;
+    }
+
+    .hamburger-menu{
+        display: inline;
+    }
 }
 
 
 /* Only applicable to max-width:320px */
 
 @media all and (max-width:320px){
-    /* can be done as above section */
+    /* everything acceptable */
 }
