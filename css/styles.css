@@ -134,3 +134,83 @@ header{
     width:32%;
     margin-bottom:30px;
 }
+
+/*blog-section*/
+.blog{
+    margin-top:80px;
+}
+
+.blog-text{
+    margin-top: 70px;
+}
+
+.blog-text img{
+    float: left;
+    width:300px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-text p{
+    font-size:15px;
+}
+
+/*Contact-Form*/
+.contact{
+    margin-top:100px;
+}
+
+form{
+    text-align: center;
+    margin-top:55px;
+}
+
+form label{
+    font-size: 18px;
+    color:#111;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form input,form textarea{
+    display:block;
+    margin:0 auto;
+    border: 1px solid #111;
+    width:70%;
+    padding:8px;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    color:#fff;
+    padding:10px 20px;
+    background-color: #111;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    border:2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+form button:hover{
+    background-color: #fff;
+    color :#ff5757;
+    border:2px solid #ff5757;
+}
+
+/*footer-section*/
+footer{
+    background-color: #111;
+    color:#fff;
+    margin-top:70px ;
+}
+
+footer p{
+    text-align: center;
+    padding:20px;
+}
