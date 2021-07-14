@@ -1,0 +1,34 @@
+/* Media Query */
+
+/* Only applicable to max-width:1200px */
+
+@media all and (max-width:1200px){
+    /* everything acceptable */
+}
+
+/* Only applicable to max-width:992px */
+
+@media all and (max-width:992px){
+   
+}
+
+/* Only applicable to max-width:768px */
+
+@media all and (max-width:768px){
+    /* can be done as above section */
+    
+}
+
+/* Only applicable to max-width:480px */
+
+@media all and (max-width:480px){
+    /* can be done as above section */
+    
+}
+
+
+/* Only applicable to max-width:320px */
+
+@media all and (max-width:320px){
+    /* can be done as above section */
+}

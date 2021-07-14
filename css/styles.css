@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: #111;
+    text-rendering: optimizeLegibility;
+    font-family: "Raleway",sans-serif;
+}
+
+
+
+li{
+    list-style:none;
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
