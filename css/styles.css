@@ -34,7 +34,7 @@ header{
 }
 
 .heading-div{
-    max-height: 1400px;
+    max-width: 1400px;
     display:flex;
     margin:0 auto;
     justify-content: space-between;
@@ -57,6 +57,15 @@ header{
 
 .nav-menu a:hover{
     border-bottom: 3px solid #ff5757;
+}
+
+/*sticky-nav*/
+.sticky{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:rgba(255,255,255,0.9);
 }
 
 /*header-section*/
@@ -107,4 +116,21 @@ header{
     text-transform: uppercase;
     margin-top:10px;
     font-size: 17px;
+}
+
+/*portfolio section*/
+.portfolio{
+    margin-top:100px;
+}
+
+.portfolio-items{
+    display: flex;
+    justify-content:space-between;
+    flex-flow: wrap;
+    margin-top:70px;
+}
+
+.portfolio-items img{
+    width:32%;
+    margin-bottom:30px;
 }
